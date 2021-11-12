@@ -1,4 +1,4 @@
-/// A library to handle Hypertext Application Language (HAL) resources.
+/// A Dart library to handle Hypertext Application Language (HAL) resources.
 /// Hypertext Application Language (HAL) specification is described in detail
 /// at https://datatracker.ietf.org/doc/html/draft-kelly-json-hal
 library hal;

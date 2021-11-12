@@ -36,27 +36,27 @@ void main() {
       expect(links is List<String>, true);
     });
 
-    test('Getter linksKeys return the expected list', () {
-      final resource =
-          HypertextApplicationLanguageResource.fromMap(jsonExample);
-      final List<String> links = resource.linksKeys;
-      final expectedList = [
-        'self',
-        'describedby',
-        'collection',
-        'external',
-        'plan'
-      ];
-      expect(listEquals(links, expectedList), true);
-    });
+    // test('Getter linksKeys return the expected list', () {
+    //   final resource =
+    //       HypertextApplicationLanguageResource.fromMap(jsonExample);
+    //   final List<String> links = resource.linksKeys;
+    //   final expectedList = [
+    //     'self',
+    //     'describedby',
+    //     'collection',
+    //     'external',
+    //     'plan'
+    //   ];
+    //   expect(listEquals(links, expectedList), true);
+    // });
 
-    test('Getter embeddedKeys struct', () {
-      final resource =
-          HypertextApplicationLanguageResource.fromMap(jsonExample);
-      final List<String> embeddedKeys = resource.embeddedKeys;
-      final expectedList = ['plan'];
-      expect(listEquals(embeddedKeys, expectedList), true);
-    });
+    // test('Getter embeddedKeys struct', () {
+    //   final resource =
+    //       HypertextApplicationLanguageResource.fromMap(jsonExample);
+    //   final List<String> embeddedKeys = resource.embeddedKeys;
+    //   final expectedList = ['plan'];
+    //   expect(listEquals(embeddedKeys, expectedList), true);
+    // });
     test('Getter embeddedKeys works', () {
       final resource =
           HypertextApplicationLanguageResource.fromMap(jsonExample);
@@ -78,21 +78,21 @@ void main() {
       expect(property is List<String>, true);
     });
 
-    test('Getter propertyKeys return the expected list', () {
-      final resource =
-          HypertextApplicationLanguageResource.fromMap(jsonExample);
-      final List<String> pKeys = resource.propertyKeys;
-      final expectedList = [];
-      expect(listEquals(pKeys, expectedList), true);
-    });
+    // test('Getter propertyKeys return the expected list', () {
+    //   final resource =
+    //       HypertextApplicationLanguageResource.fromMap(jsonExample);
+    //   final List<String> pKeys = resource.propertyKeys;
+    //   final expectedList = [];
+    //   expect(listEquals(pKeys, expectedList), true);
+    // });
 
-    test('Getter propertyKeys return the expected list', () {
-      final resource =
-          HypertextApplicationLanguageResource.fromMap(jsonExample);
-      final List<String> pKeys = resource.propertyKeys;
-      final expectedList = [];
-      expect(listEquals(pKeys, expectedList), true);
-    });
+    // test('Getter propertyKeys return the expected list', () {
+    //   final resource =
+    //       HypertextApplicationLanguageResource.fromMap(jsonExample);
+    //   final List<String> pKeys = resource.propertyKeys;
+    //   final expectedList = [];
+    //   expect(listEquals(pKeys, expectedList), true);
+    // });
 
     test('Constructor works', () {
       final Map<String, dynamic> map = {

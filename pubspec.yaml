@@ -1,5 +1,5 @@
 name: hal
-description: A new Flutter package project.
+description: A Dart library to handle Hypertext Application Language (HAL) resources.
 version: 0.0.1
 homepage:
 
@@ -10,8 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio:
-  get_storage:
 
 dev_dependencies:
   flutter_test:

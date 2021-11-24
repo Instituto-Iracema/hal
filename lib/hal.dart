@@ -3,9 +3,7 @@
 /// at https://datatracker.ietf.org/doc/html/draft-kelly-json-hal
 library hal;
 
-import 'package:dio/dio.dart';
 import 'package:hal/src/rippers.dart';
-import 'package:get_storage/get_storage.dart';
 
 /// A representation of a JSON HAL resource, according to the specification available at https://datatracker.ietf.org/doc/html/draft-kelly-json-hal
 /// Resources are described in detail in

@@ -1,6 +1,4 @@
-import 'package:hal/hal.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter/foundation.dart';
 import 'package:hal/src/rippers.dart';
 
 final Map<String, dynamic> jsonExample = {

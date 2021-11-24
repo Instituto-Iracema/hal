@@ -1,5 +1,5 @@
-import 'package:hal/hal.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:hal/hal.dart';
 import 'package:flutter/foundation.dart';
 
 final Map<String, dynamic> jsonExample = {
